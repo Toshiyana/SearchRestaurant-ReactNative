@@ -6,7 +6,6 @@ const ResultsList = ({ title, results }) => {
   return (
     <View>
       <Text style={styles.title}>{title}</Text>
-      <Text>Results: {results.length}</Text>
       <FlatList
         horizontal
         data={results}
